@@ -1,0 +1,82 @@
+@font-face {    font-family: Leto Text Sans;
+    src: url("fonts/Leto Text Sans Defect.otf") format("opentype");
+    }
+
+
+body {
+
+ font-family: Leto Text Sans;
+}
+
+h1 { text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+
+ }
+
+.grid {
+    position: relative;
+    top: 50px;
+}
+
+ [class*='col-'] {
+  float: left;
+}
+
+.col-2-3 {
+  width: 33.33%;
+  position: relative;
+  left: 50px;
+}
+.col-1-3 {
+  width: 66.66%;
+}
+
+.col-1-3 p{
+  width: 650px;
+  margin-left: 60px;
+  font-size:20px;
+  line-height:40px;
+}
+
+
+.col-2-3 ul{
+    width: 200px;
+}
+
+.col-2-3 ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.col-2-3 ul a li{
+    position: relative;
+    margin: 20% 0;
+}
+
+.col-2-3 ul a:hover{
+    color: green;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color:#fff;
+  opacity: .7;
+}
+
+.footer p{
+margin-left: 40px;
+font-size:20px;
+}
+
+.back p a{
+    position:absolute;
+    text-decoration: none;
+    top: 20px;
+    color: black;
+    font-size:20px;
+}
